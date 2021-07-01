@@ -1,0 +1,39 @@
+.div-wraper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-wraper {
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    /* ჩარჩოს გაქრობა */
+    border: none;
+    border-bottom: 2px solid red;
+}
+.input-wraper::placeholder {
+    color: blue;
+}
+.form-wraper {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.btn-submit {
+    width: 600px;
+    height: 35px;
+    
+    color:red;
+    border: none;
+    border-radius: 50px;
+}
+.texta-wraper {
+    height: 200px;
+    border-radius: 30px;
+    padding: 15px;
+
+}
+.btn-submit {
+    max-width: 600px;
+    width: 100%;
+}
